@@ -1,0 +1,98 @@
+body
+{
+    background-color: hsl(232, 19%, 15%);
+    color: white;
+    font-family: "Alata";
+}
+
+.nav
+{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    float: right;
+    margin-right: 250px;
+}
+
+.nav a 
+{
+    padding-right: 25px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+
+.hero
+{
+    margin-left: 750px;
+    display: block;
+    margin-top: 55px;
+    position: relative;
+}
+
+h1
+{
+    font-family:"Josefin Sans";
+    margin-top: 40px;
+}
+
+.nav a:hover
+{
+    font-size: large;
+    transform: scale(1.2);
+    color: lightsalmon;
+}
+
+
+.left
+{
+    float: left;
+    margin-left: 550px;
+    padding-right: 200px;
+}
+
+.right
+{
+    float: left;
+}
+
+
+@media only screen and (max-width:600px)
+{
+    .nav
+    {
+        display: inline;  
+        margin-right: 20px;
+        padding: 20px;
+        margin-top: 25px;  
+        margin-bottom: 20px;
+    }
+    .hero
+    {
+        display: block;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .left
+    {
+        margin-left: 0;
+        padding-right: 0;
+        margin-top: 100px;
+        position: relative;
+        font-size: smaller;
+    }
+    h1
+    {
+        margin-top: 0;
+        position: relative;
+    }
+
+    .right
+    {
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 350px;
+        font-size: smaller;
+    }
+
+}

@@ -1,0 +1,148 @@
+p
+{
+    float: right;
+    margin-left: 1120px;
+    margin-top: 70px;
+    font-weight: bolder;
+    color:white;
+    font-family:'Alata';
+    font-size:40px;
+    position: absolute;
+}
+*
+{
+    font-family: "Josefin Sans";
+    font-weight: bold;
+}
+
+body
+{
+    background-color: hsl(232, 19%, 15%);
+}
+
+div
+{
+    float: right;
+    background-color:white;
+    border-radius:10px;
+    width: 500px;
+    height: 350px;
+    margin-right: 150px;
+    margin-top: 320px;
+    position: relative;
+}
+span
+{
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.in
+{
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 14px;
+    width: 350px;
+    border: solid black 1px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family:'Alata';
+}
+
+.btn
+{
+    background-color:hsl(154, 59%, 51%);
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    width: 420px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size:medium;
+    color: white;
+    font-weight: bolder;
+}
+
+.hero
+{
+    height: 840px;
+    width: 900px;
+    display: block;
+    position: absolute;
+}
+
+.heading
+{
+    margin-top: 170px;
+    margin-left: 1050px;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+.new
+{
+    font-size: large;
+    position: relative;
+    margin-right: 320px;
+    margin-top: 15px;
+}
+
+
+@media only screen and (max-width:600px)
+{
+    p
+    {
+        margin-left: 32px;
+        font-size: 30px;
+    }
+    .heading
+    {
+        margin-left: 45px;
+    }
+
+    .hero{
+        display: none;
+       height: 100px;
+       width: 100px;
+       margin-left: 0px;
+       margin-top: 400px;
+       
+    }
+    div
+    {
+        display: block;
+        height: 350px;
+        margin-top: 350px;
+        margin-left: 20px;
+        width: 350px;
+        float:left;
+        position: relative;
+    }
+    span 
+    {
+        margin-left: 10px;
+    }
+    .in
+    {
+        width: 250px;
+    }
+    .btn
+    {
+        margin-left: 30px;
+        width: 300px;
+    }
+
+    .new
+    {
+        position: absolute;
+        margin-top: 720px;
+        width: 100%;
+        font-size: smaller;
+        margin-left: 100px;
+    }
+}

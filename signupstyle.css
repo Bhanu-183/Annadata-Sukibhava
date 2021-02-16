@@ -1,0 +1,302 @@
+body
+{
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*
+{
+    font-family: "Josefin Sans";
+    font-weight: bold;
+}
+.container
+{
+    color: white;
+    height: 600px;
+    width: 600px;
+    border-radius: 14px;
+    margin-top: 120px;
+    display: block;
+}
+
+.mob-caption
+{
+    display: none;
+    position: relative;
+    margin-top: -80px;
+}
+
+.heading
+{
+    margin-left: 1050px;
+    width: 400px;
+    font-size: 50px;
+    margin-bottom: -80px;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.vl
+{
+    border-left: 2px solid white;
+    margin-top: 40px;
+    height: 780px;
+    position: absolute;
+    margin-left: 655px;
+    top: 0;
+  }
+
+.left
+{
+    float: left;
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+.right
+{
+    margin-left: 1600px;
+    position: absolute;
+    float: left;
+    margin-top: -10px;
+}
+
+span
+{
+    margin-left: -300px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input
+{
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.name
+{
+    margin-left: 120px;
+    width: 280px;
+}
+
+.phno
+{
+    margin-left: 40px;
+    width: 280px;
+}
+
+.location
+{
+    margin-left: 100px;
+    width: 280px;
+}
+
+.gen
+{
+    margin-left: 100px;
+}
+
+select
+{
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.acers
+{
+    margin-left: 20px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.sd
+{
+    margin-top: 10px;
+}
+
+.crop
+{
+    width: 150px;
+}
+
+.submit
+{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -100px;
+    width: 350px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color:red;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    transition: all 0.4s;
+}
+
+.reset
+{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -50px;
+    width: 250px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color:forestgreen;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    transition: all 0.4s;
+}
+
+
+.submit:hover
+{
+    transform: scale(1.07);
+    background-color: white;
+    color:black
+}
+
+.reset:hover
+{
+    transform: scale(1.07);
+    background-color:white;
+    color:black;
+}
+
+.caption p
+{
+    padding: 10px;
+    font-size: 50px;
+    position: absolute;
+    font-size: center;
+}
+
+.main
+{
+    margin-left: 220px;
+    margin-top: 250px;
+}
+
+@media only screen and (max-width:600px)
+{
+    body
+    {
+        background-image: url('./background-ver.jpg');
+        background-repeat: repeat;
+    }
+
+    .mob-caption
+    {
+        display: block;
+    }
+
+    span 
+    {
+        font-size: 15px;
+    }
+
+    .caption
+    {
+        display: none;
+    }
+
+    .main
+    {
+        display: none;
+        margin-left: 0;
+    }
+
+    .vl
+    {
+        display: none;
+    }
+
+    .left
+    {
+        margin-left: 300px;
+        margin-top: 75px;
+    }
+
+    .left input
+    {
+        width: 200px;
+    }
+
+    .location
+    {
+        margin-left: 110px;
+    }
+
+    .gen
+    {
+        margin-right: -90px;
+        margin-left: 15px;
+    }
+
+    .phno
+    {
+        margin-left: 65px;
+    }
+
+    .right
+    {
+        margin-left: 300px;
+        margin-top: 315px;
+    }
+
+    .acers
+    {
+        margin-top: -10px;
+        margin-left: 60px;
+        width: 200px;
+    }
+
+    .sd
+    {
+        margin-left: 100px;
+        width: 200px;
+    }
+
+    .soil
+    {
+        margin-left: 140px;
+        width: 200px;
+    }
+
+    .crop
+    {
+        width: 200px;
+        margin-left: 132px;
+    }
+    .submit
+    {
+        margin-top: 640px;
+        margin-left: -300px;
+        width: 200px;
+    }
+
+    .reset
+    {
+        margin-top: 720px;
+        margin-left: -300px;
+        width: 200px;
+    }
+
+    .heading
+    {
+        margin-left: 85px;
+        width: 400px;
+        font-size: 25px;
+        margin-bottom: -80px;
+        position: absolute;
+        margin-top: 20px;
+    }
+}
