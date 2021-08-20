@@ -2,7 +2,6 @@
 This a Full Stack Web Application,built using LAMP stack and also developed it on Python tiknter. The main objective of this application is to provide technical assitance to the (young) farmers using a centralized database.
 
 #The major features of this application are:
-
   1.The user can login using his/her user id and phone number.
   2.If not an existing user,he/she can create a new account
      a.A new user can select a soil based on the variety present in his/her field.
